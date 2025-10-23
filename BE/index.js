@@ -45,6 +45,8 @@ app.get('/cuenta/:id', (req, res) => {
 //Link de prueba no valido
 // http://localhost:3130/cuenta/123456789
 
+
+//Realice este endpoint con dicho nombre para crear los 4 endpoints distintos, aunque se podia manejar todo desde el mismo endpoint cuentas :D
 app.get('/cuentasParam', (req, res) => {
   const { queryParam } = req.query
   
