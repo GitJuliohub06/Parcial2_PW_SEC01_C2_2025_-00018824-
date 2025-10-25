@@ -1,4 +1,4 @@
-export const data = [
+export const cuentas = [
   {
     "_id": "68f9a9cfb63bf8e29df4119a",
     "isActive": false,
@@ -55,7 +55,7 @@ export const data = [
     "client": "Parrish Harrington",
     "gender": "male"
   },
-{
+  {
     "_id": "68f9a9cf03402b7fa8db4d31",
     "isActive": true,
     "balance": "$1,749.19",
@@ -63,4 +63,4 @@ export const data = [
     "client": "Parrish Harrington",
     "gender": "male"
   }
-]
+];
